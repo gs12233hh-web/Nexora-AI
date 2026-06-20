@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🤖 Nexora AI - Chat Inteligente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-content">
+        <h1>🤖 Nexora AI</h1>
+        <p class="subtitle">Seu assistente inteligente</p>
+      </div>
+      <div class="header-actions">
+        <button id="langBtn" class="lang-btn" onclick="toggleLanguage()">EN</button>
+        <button id="themeBtn" class="theme-btn" onclick="toggleTheme()">🌙</button>
+        <button id="clearBtn" class="clear-btn" onclick="clearHistory()">🗑️</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="chatBox" class="chat-box">
+        <div class="welcome-message">
+          <h2>Bem-vindo ao Nexora AI! 👋</h2>
+          <p>Digite uma mensagem para começar a conversa</p>
+        </div>
+      </div>
+
+      <div class="input-area">
+        <input 
+          type="text" 
+          id="msgInput" 
+          class="input-field" 
+          placeholder="Digite sua mensagem aqui..."
+          autocomplete="off"
+        >
+        <button id="sendBtn" class="send-btn" onclick="sendMessage()">📤</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2024 Nexora AI - Desenvolvido com ❤️</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
