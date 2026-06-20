@@ -180,13 +180,17 @@ const responses = {
 
 Pull requests são bem-vindas! Para mudanças maiores, abra uma issue primeiro.
 
+Veja [CONTRIBUTING.md](./CONTRIBUTING.md) para detalhes.
+
+## 👤 Criador
+
+**Desenvolvido por:** gs12233hh-web  
+**Email:** gs12233.hh@gmail.com  
+**GitHub:** [@gs12233hh-web](https://github.com/gs12233hh-web)
+
 ## 📝 Licença
 
-MIT - Veja LICENSE.md
-
-## 👤 Autor
-
-Desenvolvido por **gs12233hh-web**
+MIT - Veja [LICENSE](./LICENSE) para detalhes.
 
 ## 💬 Suporte
 
